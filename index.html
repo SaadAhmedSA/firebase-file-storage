@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(120deg ,blue,rgb(228, 131, 131));
+    }
+    #main{
+        margin-top: 10rem;
+        border: 2px solid black;
+        border-radius: 25px;
+        padding:20px;
+
+    }
+    img{
+        margin-top: 10px;
+    }
+    button{
+height: 35px;
+width: auto;
+background-color: black;
+color: white;
+    }
+</style>
+<body>
+   <div id="main">
+    <input type="file" accept="image" id="input">
+    <button id="upload">upload</button>
+
+    <img src="" alt="" id="image" width="400px" style="display: block;">
+
+   </div>
+
+
+    <script src="app.js" type="module"></script>
+    
+</body>
+</html>
